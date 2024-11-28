@@ -5,7 +5,8 @@ pipeline {
         stage("git"){
             steps {
                 echo "kjhjkhj"
-                git url: 'https://github.com/prabunsyam/Complete-Python-Bootcamp.git',credentialsId: 'GitPat', branch: 'master'
+                
+                bat "git url: 'https://github.com/prabunsyam/Complete-Python-Bootcamp.git',credentialsId: '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', branch: 'main'"
             }
         }
     }
