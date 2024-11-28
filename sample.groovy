@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo "kjhjkhj"
                 
-                bat "git url: 'https://github.com/prabunsyam/Complete-Python-Bootcamp.git',credentialsId: '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', branch: 'main'"
+                bat "git clone https://github.com/prabunsyam/Complete-Python-Bootcamp.git"
             }
         }
     }
