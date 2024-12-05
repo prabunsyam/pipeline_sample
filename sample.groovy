@@ -1,6 +1,6 @@
 
 pipeline {
-    agent {label "win-agent"}
+    agent {label "sru_node"}
     stages {
         stage("git"){
             steps {
